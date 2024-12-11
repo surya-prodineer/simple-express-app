@@ -6,7 +6,7 @@ const PORT = 3000;
 
 
 app.get('/', async (req, res) => {
-  res.send("<h1>Service Running!</h1>");
+  res.send("<h1>Hello World! Service Running!</h1>");
 });
 
 app.listen(PORT, () => {
