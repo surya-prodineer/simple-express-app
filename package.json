@@ -1,7 +1,11 @@
 {
   "name": "simple-express-app",
+  "main": "app.js",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "~4.16.1",
